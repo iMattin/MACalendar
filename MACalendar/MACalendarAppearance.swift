@@ -43,5 +43,5 @@ public struct MACalendarAppearance {
     public var hintFont: UIFont? = UIFont.systemFont(ofSize: 12)
 
 
-    public init() { print("salam") }
+    public init() {  }
 }
