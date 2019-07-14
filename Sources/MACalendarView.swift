@@ -60,7 +60,6 @@ public class MACalendarView: UIView {
     }
 
 
-
     public var hint: String? = nil {
         didSet {
             self.hintLabel.text = hint
@@ -175,7 +174,7 @@ public class MACalendarView: UIView {
 
 
     private func configCollectionView() {
-        let cellNib = UINib(nibName: "DayCollectionViewCell", bundle: Bundle(identifier: "com.matin.MACalendar.MACalendar"))
+        let cellNib = UINib(nibName: "DayCollectionViewCell", bundle: BUNDLE)
         collectionView.register(cellNib, forCellWithReuseIdentifier: "dayCell")
         collectionView.semanticContentAttribute = .forceRightToLeft
         collectionView.dataSource = self

@@ -55,18 +55,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5327C68A22DA07E400B76000 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5327C68C22DA07EF00B76000 /* MAAssets.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		533F6F0722D5BF0C00DEBC59 = {
 			isa = PBXGroup;
 			children = (
-				533F6F1322D5BF0C00DEBC59 /* MACalendar */,
+				53ACA52F22DB25BD00B85F76 /* Resources */,
+				533F6F1322D5BF0C00DEBC59 /* Sources */,
 				533F6F1222D5BF0C00DEBC59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,10 +72,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		533F6F1322D5BF0C00DEBC59 /* MACalendar */ = {
+		533F6F1322D5BF0C00DEBC59 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5327C68A22DA07E400B76000 /* Resources */,
 				5327C68F22DA080500B76000 /* DayCollectionViewCell.swift */,
 				5327C69022DA080500B76000 /* DayCollectionViewCell.xib */,
 				5327C68B22DA07EF00B76000 /* MACalendarView.xib */,
@@ -99,7 +91,15 @@
 				533F6F1422D5BF0C00DEBC59 /* MACalendar.h */,
 				533F6F1522D5BF0C00DEBC59 /* Info.plist */,
 			);
-			path = MACalendar;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		53ACA52F22DB25BD00B85F76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5327C68C22DA07EF00B76000 /* MAAssets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,9 +334,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MACalendar/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,9 +362,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MACalendar/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
