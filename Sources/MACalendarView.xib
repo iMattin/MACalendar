@@ -4,14 +4,13 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
+        <deployment version="2304" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MACalendarView" customModule="MACalendar">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MACalendarView" customModule="MACalendar" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="Bif-HV-7bv" id="WZQ-3s-1fA"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="Web-FD-uSz"/>
@@ -94,7 +93,7 @@
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" name="ColorRed"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="geO-uY-xJM" firstAttribute="top" secondItem="fBY-TV-fyU" secondAttribute="top" id="GQY-Qa-q2S"/>
                         <constraint firstItem="31r-ea-4nl" firstAttribute="top" secondItem="fBY-TV-fyU" secondAttribute="top" constant="8" id="WYp-Sm-Pva"/>
@@ -203,8 +202,5 @@
     <resources>
         <image name="ic_left_arrow" width="25" height="25"/>
         <image name="ic_right_arrow" width="25" height="25"/>
-        <namedColor name="ColorRed">
-            <color red="1" green="0.0" blue="0.28799998760223389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
     </resources>
 </document>
