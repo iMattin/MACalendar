@@ -13,7 +13,7 @@ import UIKit
 public class MACalendarView: UIView {
 
     private let NIB_NAME = "MACalendarView"
-    private let BUNDLE = Bundle(identifier: "com.matin.MACalendar.MACalendar")!
+    private let BUNDLE = Bundle(for: MACalendarView.self)
 
     private var calendar: Calendar!
 

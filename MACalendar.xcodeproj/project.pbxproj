@@ -55,15 +55,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5327C68922DA07CF00B76000 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				5327C68F22DA080500B76000 /* DayCollectionViewCell.swift */,
-				5327C69022DA080500B76000 /* DayCollectionViewCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 		5327C68A22DA07E400B76000 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				5327C68A22DA07E400B76000 /* Resources */,
-				5327C68922DA07CF00B76000 /* Cell */,
+				5327C68F22DA080500B76000 /* DayCollectionViewCell.swift */,
+				5327C69022DA080500B76000 /* DayCollectionViewCell.xib */,
 				5327C68B22DA07EF00B76000 /* MACalendarView.xib */,
 				5327C69722DA082200B76000 /* MACalendarView.swift */,
 				5327C69522DA082200B76000 /* MACalendar.swift */,
